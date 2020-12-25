@@ -2,6 +2,16 @@ import settings
 import cog
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix=settings.prefix)  # YOUR PREFIX HERE e.g. bot = commands.Bot(command_prefix="! ")
+bot = commands.Bot(command_prefix=settings.prefix)  # DELETE THIS
+
+# UNCOMMENT THIS
+# bot = commands.Bot(command_prefix="YOUR PREFIX HERE")
+
 bot.add_cog(cog.Mudae(bot))
-bot.run(settings.token)  # YOUR TOKEN HERE e.g. bot.run("ABCDEFSDS3434334")
+bot.run(settings.token)  # DELETE THIS
+
+# UNCOMMENT THIS FOR BOT
+# bot.run("YOUR TOKEN HERE")
+
+# UNCOMMENT THIS FOR USER BOT
+# bot.login("YOUR TOKEN HERE", bot=false)
