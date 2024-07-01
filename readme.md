@@ -9,4 +9,3 @@ Feel free to create an issue if you need help or something doesn't work.
 ## Customization
 The cog has very little code since most of the work is done by EzMudae.py.
 It's therefore very easy to customize the bot.
-You can for example change the alert or, if you're using it as selfbot, even automatically claim waifus
